@@ -23,6 +23,20 @@
     z-index: 99;
 }
 
+.chatbot-icon {
+  position: fixed;
+  bottom: 90px;
+  right: 30px;
+  z-index: 999;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.chatbot-icon:hover {
+  transform: scale(1.1);
+}
+
+
 .counter-box {
     position: relative;
     transition: transform 0.3s ease-in-out;
